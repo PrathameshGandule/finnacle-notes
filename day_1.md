@@ -72,28 +72,67 @@ flowchart LR
 ```
 ### ways of complexity analysis
 ```mmd
-graph LR
-	types --> Time-complexity --> measures_running_time_of_algorithm_as_size_increases --> Big-O-Notation
-	types --> Space-complexity --> amount_of_memory_space_needed_as_need_increases --> Big-O-Notation
+flowchart LR
+	t[types]
+	tc[Time complexity]
+	tcds[measures running time of algorithm as size increases]
+	sc[Space complexity]
+	scds[amount of memory space needed as need increases]
+	bigo[Big O Notation]
+	t --> tc --> tcds --> bigo
+	t --> sc --> scds --> bigo 
 ```
 
 ### approaches to measure time complexity
 ```mmd
-graph LR
-	methods --> counting_operations --> counts_operations_one_by_one 
-	methods --> analytical_methods --> analyses
-	methods --> recurrence_relations --> for.recursive.algorithms
-	methods --> loop_analysis --> analyses_based_on_loops_best_for_it
-	methods --> asymtotic_notations_Big-O --> gives.overall.view.of.relation.of.inputs.with.amount.of.time
-	methods --> experimental_analysis --> real.world.performance.insights_may_get_affected_extenal_factors
+flowchart LR
+	m[methods]
+	n1[counting operations]
+	n1ds[counts operations one by one]
+
+	n2[analytical methods]
+	n2ds[analyses thoroughly]
+
+	n3[recurrence relations]
+	n3ds[for recursive algorithms]
+
+	n4[loop analysis]
+	n4ds[analyses based on loops best for it]
+
+	n5[asymptotic notations Big O]
+	n5ds[gives overall view of relation of inputs with amount of time]
+
+	n6[experimental analysis]
+	n6ds[real world performance insights may get affected extenal factors]
+	
+	m --> n1 --> n1ds	
+	m --> n2 --> n2ds	
+	m --> n3 --> n3ds	
+	m --> n4 --> n4ds	
+	m --> n5 --> n5ds	
+	m --> n6 --> n6ds	
 ```
 ### approaches to measure space complexity
 ```mmd
-graph LR
-	methods --> memory-tracking --> precise_but_time_consuming
-	methods --> counting-variables --> simple_but_provides_basic_estimate
-	methods --> data-structure-analysis --> for_complex_data_structures
-	methods --> recursion-stack --> used.for.recursive.algorithms
-	methods --> auxillary-space --> helps_understand_overhead
-	methods --> Big-O-Notation --> widely_used_for_simplicity
+flowchart LR
+	m[methods]
+	n1[memory tracking]
+	n1ds[precise but time consuming]
+	n2[counting variables]
+	n2ds[simple but provides basic estimate]
+	n3[data structure analysis]
+	n3ds[for complex data structures]
+	n4[recursion stack]
+	n4ds[used for recursive algorithms]
+	n5[auxillary space]
+	n5ds[helps understand overhead]
+	n6[Big O Notation]
+	n6ds[widely used for simplicity]
+	
+	m --> n1 --> n1ds	
+	m --> n2 --> n2ds	
+	m --> n3 --> n3ds	
+	m --> n4 --> n4ds	
+	m --> n5 --> n5ds	
+	m --> n6 --> n6ds	
 ```
