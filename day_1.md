@@ -118,14 +118,19 @@ flowchart LR
 	m[methods]
 	n1[memory tracking]
 	n1ds[precise but time consuming]
+
 	n2[counting variables]
 	n2ds[simple but provides basic estimate]
+
 	n3[data structure analysis]
 	n3ds[for complex data structures]
+
 	n4[recursion stack]
 	n4ds[used for recursive algorithms]
+
 	n5[auxillary space]
 	n5ds[helps understand overhead]
+	
 	n6[Big O Notation]
 	n6ds[widely used for simplicity]
 	

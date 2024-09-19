@@ -13,3 +13,7 @@ One of the ways to view above markdown files using `mermaid` extension for markd
 5. Now you are good to go :smile:
 
 Visit [mermaid](https://mermaid.js.org/intro/) for tutorial on mermaid diagrams
+
+6. To view file in chrome open a chrome tab and press Ctrl + O
+7. Then open the your desired `.md` file
+8. Make sure markdown viewer extension working properly
